@@ -4,8 +4,8 @@
 //
 // TODO: Modernize all these apis. This is all quite clunky.
 
-const Token = require("@solana/spl-token").Token;
-const TOKEN_PROGRAM_ID = require("@solana/spl-token").TOKEN_PROGRAM_ID;
+const Token = require("@solana/safe-token").Token;
+const TOKEN_PROGRAM_ID = require("@solana/safe-token").TOKEN_PROGRAM_ID;
 const TokenInstructions = require("@project-serum/serum").TokenInstructions;
 const { Market, OpenOrders } = require("@project-serum/serum");
 const DexInstructions = require("@project-serum/serum").DexInstructions;

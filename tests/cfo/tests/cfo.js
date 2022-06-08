@@ -1,5 +1,5 @@
 const assert = require("assert");
-const { Token } = require("@solana/spl-token");
+const { Token } = require("@solana/safe-token");
 const anchor = require("@project-serum/anchor");
 const serumCmn = require("@project-serum/common");
 const { Market } = require("@project-serum/serum");

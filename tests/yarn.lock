@@ -93,7 +93,7 @@
   integrity sha512-fGsp9F0ZAS48YQ2HNy+6CNoifJESFXxVsOLPd9QK1XNV8CTuQoECOnVXxV6s5cKGre8pLNq5hrhi5J6aCGauEQ==
   dependencies:
     "@project-serum/anchor" "^0.11.1"
-    "@solana/spl-token" "^0.1.6"
+    "@solana/safe-token" "^0.1.6"
     "@solana/web3.js" "^1.21.0"
     bn.js "^5.1.2"
     buffer-layout "^1.2.0"
@@ -105,9 +105,9 @@
   dependencies:
     buffer "~6.0.3"
 
-"@solana/spl-token@^0.1.6", "@solana/spl-token@^0.1.8":
+"@solana/safe-token@^0.1.6", "@solana/safe-token@^0.1.8":
   version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@solana/spl-token/-/spl-token-0.1.8.tgz#f06e746341ef8d04165e21fc7f555492a2a0faa6"
+  resolved "https://registry.yarnpkg.com/@solana/safe-token/-/safe-token-0.1.8.tgz#f06e746341ef8d04165e21fc7f555492a2a0faa6"
   integrity sha512-LZmYCKcPQDtJgecvWOgT/cnoIQPWjdH+QVyzPcFvyDUiT0DiRjZaam4aqNUyvchLFhzgunv3d9xOoyE34ofdoQ==
   dependencies:
     "@babel/runtime" "^7.10.5"

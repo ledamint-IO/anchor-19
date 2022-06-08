@@ -5,7 +5,7 @@ const {
   ASSOCIATED_TOKEN_PROGRAM_ID,
   TOKEN_PROGRAM_ID,
   Token,
-} = require("@solana/spl-token");
+} = require("@solana/safe-token");
 const miscIdl = require("../target/idl/misc.json");
 const utf8 = anchor.utils.bytes.utf8;
 

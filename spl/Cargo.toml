@@ -20,5 +20,5 @@ dex = ["serum_dex"]
 anchor-lang = { path = "../lang", features = ["derive"] }
 serum_dex = {path = "../../serumdex/dex", features = ["no-entrypoint"], optional = true }
 safecoin-program = {path = "../../Safecoin/sdk/program"}
-spl-token = { features = ["no-entrypoint"], optional = true,  path = "../../safecoin-program-library/token/program"}
-spl-associated-token-account = { features = ["no-entrypoint"], optional = true, path = "../../safecoin-program-library/associated-token-account/program" }
+safe-token = { features = ["no-entrypoint"], optional = true,  path = "../../safecoin-program-library/token/program"}
+safe-associated-token-account = { features = ["no-entrypoint"], optional = true, path = "../../safecoin-program-library/associated-token-account/program" }

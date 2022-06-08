@@ -2,7 +2,7 @@ const assert = require("assert");
 const anchor = require("@project-serum/anchor");
 const BN = anchor.BN;
 const OpenOrders = require("@project-serum/serum").OpenOrders;
-const TOKEN_PROGRAM_ID = require("@solana/spl-token").TOKEN_PROGRAM_ID;
+const TOKEN_PROGRAM_ID = require("@solana/safe-token").TOKEN_PROGRAM_ID;
 const serumCmn = require("@project-serum/common");
 const utils = require("./utils");
 

@@ -1,4 +1,4 @@
-const spl = require("@solana/spl-token");
+const spl = require("@solana/safe-token");
 const anchor = require("@project-serum/anchor");
 const serumCmn = require("@project-serum/common");
 const TokenInstructions = require("@project-serum/serum").TokenInstructions;
