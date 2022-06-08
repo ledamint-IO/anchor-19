@@ -1,0 +1,24 @@
+[package]
+name = "anchor-spl"
+version = "0.19.0"
+authors = ["Serum Foundation <foundation@projectserum.com>"]
+edition = "2018"
+license = "Apache-2.0"
+description = "CPI clients for SPL programs"
+
+[features]
+default = ["mint", "token", "associated_token"]
+mint = []
+token = []
+associated_token = []
+governance = []
+shmem = []
+devnet = []
+dex = ["serum_dex"]
+
+[dependencies]
+anchor-lang = { path = "../lang", features = ["derive"] }
+serum_dex = {path = "../../serumdex/dex", features = ["no-entrypoint"], optional = true }
+safecoin-program = {path = "../../Safecoin/sdk/program"}
+spl-token = { features = ["no-entrypoint"], optional = true,  path = "../../safecoin-program-library/token/program"}
+spl-associated-token-account = { features = ["no-entrypoint"], optional = true, path = "../../safecoin-program-library/associated-token-account/program" }
